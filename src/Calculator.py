@@ -10,6 +10,11 @@ def multiplication(a, b):
     return a * b
 
 
+def division(a, b):
+    round_result = a / b
+    return round(round_result, 8)
+
+
 class Calculator:
     result = 0
 
@@ -27,3 +32,8 @@ class Calculator:
     def multiply(self, a, b):
         self.result = a * b
         return self.result
+
+    def divide(self, a, b):
+        self.result = a / b
+        return self.result
+
