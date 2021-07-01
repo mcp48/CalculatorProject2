@@ -16,7 +16,7 @@ def division(a, b):
 
 
 def square(a):
-    return a * a
+    return a ** 2
 
 
 class Calculator:
