@@ -11,9 +11,6 @@ class MyTestCase(unittest.TestCase):
     def test_instantiate_calculator(self):
         self.assertIsInstance(self.calculator, Calculator)
 
-    def test_results_property_calculator(self):
-        self.assertEqual(self.calculator.result, 0)
-
     def test_add_method_calculator(self):
         test_data = CSVReader('/src/UnitTests/Unit_Tests_Addition.csv').data
         for row in test_data:
