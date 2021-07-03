@@ -11,7 +11,7 @@ def multiplication(a, b):
 
 
 def division(a, b):
-    return round(float(a) / float(b), 9)
+    return round(float(a) / float(b), 8)
 
 
 def square(a):
