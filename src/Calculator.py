@@ -19,8 +19,7 @@ def square(a):
 
 
 def squareRoot(a):
-    round_root = a ** 0.5
-    return round(round_root, 8)
+    return int(a) ** 0.5
 
 
 class Calculator:
